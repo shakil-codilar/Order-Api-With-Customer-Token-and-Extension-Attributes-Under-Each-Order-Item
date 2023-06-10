@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+    <extension_attributes for="Magento\Sales\Api\Data\OrderItemInterface">
+        <attribute code="item_color" type="string" />
+        <attribute code = "item_capacity" type = "string"/>
+        <attribute code = "item_material" type = "string"/>
+        <attribute code = "item_image " type="string"/>
+    </extension_attributes>
+</config>
